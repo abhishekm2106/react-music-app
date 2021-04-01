@@ -1,0 +1,40 @@
+.search-bar {
+  width: 40%;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.search-form {
+  width: 100%;
+}
+
+.input {
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  width: 75%;
+}
+
+.submit-button {
+  border-radius: 50%;
+  padding: 10px;
+  outline: none;
+  background-color: blueviolet;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.submit-icon {
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  margin-top: 2rem;
+}

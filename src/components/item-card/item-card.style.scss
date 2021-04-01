@@ -1,0 +1,54 @@
+.item-card {
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin-bottom: 1.5rem;
+  border-radius: 2px;
+  padding: 18px 15px;
+  box-shadow: 3px 3px 8px rgba(53, 53, 53, 0.61);
+
+  display: flex;
+}
+
+.item-image {
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+  border-radius: 2px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-artist {
+  font-size: 14px;
+}
+
+.item-duration {
+  font-size: 13px;
+}
+
+.play-button {
+  background-color: blueviolet;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: auto 1rem auto auto;
+}
+
+.play-icon {
+  color: white;
+  font-size: 10px;
+}
